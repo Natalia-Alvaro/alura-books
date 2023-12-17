@@ -1,0 +1,28 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto&display=swap');
+
+
+:root{
+    --cor-de-fundo: #EBECEE;
+    --cor-branco: #FFFFFF;
+    --cor-laranja:#EB9B00;
+    --cor-azul:#002F52;
+    --cor-preto:rgba(0, 0, 0, 0.85);
+    --cor-azul-gradiente:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal:"Poppins";
+
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+

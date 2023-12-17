@@ -1,0 +1,17 @@
+hr{
+    margin: 0;
+}
+
+.rodape{
+    background-color: var(--cor-branco);
+    padding: 1em;
+
+}
+
+.rodape_titulo{
+    color: var(--cor-preto);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
