@@ -4,7 +4,8 @@
 @import url("styles/topicos.css");
 @import url("styles/contato.css");
 @import url("styles/rodape.css");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto&family=Josefin+Sans:wght@400;700display=swap');
+
 
 
 :root{
@@ -12,11 +13,10 @@
     --cor-branco: #FFFFFF;
     --cor-laranja:#EB9B00;
     --cor-azul:#002F52;
-    --cor-preto:rgba(0, 0, 0, 0.85);
+    --cor-preto:#000000;
     --cor-azul-gradiente:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal:"Poppins";
-
-
+    --fonte-secundaria:"josefin-sans"
 }
 
 body{
