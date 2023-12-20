@@ -32,7 +32,8 @@
     text-align: center;
     color: var(--cor-branco);
     background: url("../assets/lupa.svg") no-repeat; 
-    background-position: 2.5em;
+    background-position: 6em;
+    padding: 0.5em;
 }
 
 @media screen and (min-width: 1024px){

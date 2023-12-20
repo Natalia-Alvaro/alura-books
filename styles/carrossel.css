@@ -24,7 +24,8 @@
     width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next{
+.swiper-button-prev, 
+.swiper-button-next{
     display: none;
 }
 
@@ -82,11 +83,35 @@
 
 .button_ancora{
     background-color: var(--cor-laranja);
-    padding: 1em 2.2em;
+    padding: 1em 2.8em;
     margin: 1em 0em;
     text-decoration: none;
     color: var(--cor-branco);
     font-weight: 700;
-    
+}
 
+@media screen and (min-width: 1024px){
+    .carrossel_lancamentos_titulo,
+    .carrossel_vendidos_titulo{
+        font-size: 26px;
+    }
+
+    .swiper-pagination{
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper{
+        width: 60%;
+    }
+
+    .swiper-button-prev, 
+    .swiper-button-next{
+    display: block;
+    top: 60%;
+    }
+
+    .card{
+        width: 50%;
+        margin: 2.5em auto;
+    }
 }

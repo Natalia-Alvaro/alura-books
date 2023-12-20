@@ -22,6 +22,7 @@
     font-size: 16px;
     font-weight: 300;
     margin: 1em 0;
+
 }
 
 .contato_email{
@@ -37,5 +38,28 @@
     color: var(--cor-azul);
     background: url("../assets/email.svg") no-repeat;
     padding-left: 2em;
+    padding: 0.5em;
+    text-indent: 1.5em;
 
+}
+
+@media screen and (min-width: 1024px) {
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contato_email{
+        width: 30%;
+    }
+    .contao_descricao{
+        margin-right: 2em;
+        width: 30%;
+    }
+
+    .contato_titulo{
+        font-size: 24px;
+    }
+    
 }
