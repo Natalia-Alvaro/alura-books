@@ -1,10 +1,10 @@
 .cabecalho{
-
     background-color: var(--cor-branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;      
+    position: relative; 
+    font-family: var(--fonte-principal);     
 }
 
 .cabecalho_menu_hamburguer{

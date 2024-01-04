@@ -83,7 +83,7 @@
 
 .button_ancora{
     background-color: var(--cor-laranja);
-    padding: 1em 2.8em;
+    padding: 1em 2.2em;
     margin: 1em 0em;
     text-decoration: none;
     color: var(--cor-branco);
@@ -113,5 +113,37 @@
     .card{
         width: 50%;
         margin: 2.5em auto;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .carrossel_container-lancamentos,
+    .carrossel_container-vendidos{
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+    .swiper{
+        width: 50%;
+    }
+
+    .card{
+        width: 60%;
+        margin-left: 3em;
+    }
+
+    .descricao{
+        margin-right: 2em;
+    }
+
+    .descricao_titulo{
+        font-size: 32px;  
+    }
+
+    .descricao_texto{
+        font-size: 16px;
     }
 }
